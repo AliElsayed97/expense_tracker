@@ -1,0 +1,19 @@
+
+default_platform(:android)
+
+platform :android do
+  desc "distribute expense tracker app"
+  lane :expense_distribution do
+      sh "flutter clean"
+      sh "flutter build apk --release"
+     firebase_app_distribution(
+        app: "1:114304094212:android:9116b39912be317b01a551",
+        firebase_cli_token: "1//03AihXwfY9lvdCgYIARAAGAMSNwF-L9IrsV_hRgmsTqgrh2tFS3sxQXTPoMverhTDRtfft5vVw_rUh7k6d6vNK6xIAxeGgrptY9E",
+        android_artifact_type: "APK",
+        android_artifact_path: "../build/app/outputs/flutter-apk/app-release.apk",
+        testers:"aliielsayed97@gmail.com",
+        release_notes: "New release by fastlane"
+      )
+  end
+
+end
