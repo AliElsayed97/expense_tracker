@@ -129,5 +129,14 @@ Suggested:
 - FX math rationale (USD→X ⇒ X→USD = 1/rate)
 
 ## 9) Screenshoot from my device 
+![image alt](https://github.com/AliElsayed97/expense_tracker/blob/5387221ae63844310fac720dfa043a732bc54267/1.jpg)
+
+![image alt](https://github.com/AliElsayed97/expense_tracker/blob/5387221ae63844310fac720dfa043a732bc54267/2.jpg) 
+
+![image alt](https://github.com/AliElsayed97/expense_tracker/blob/5387221ae63844310fac720dfa043a732bc54267/3.jpg) 
+
+
+
+
 
 
